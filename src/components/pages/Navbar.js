@@ -1,14 +1,27 @@
-import { Link } from "react-router-dom"
+import '../../styles/logo.css'
+import Logo from '../../img/logo.png'
+import '../../styles/menu.css'
+import '../../styles/classes.css'
+import '../../styles/elements.css'
+import '../../styles/styles.css'
+import '../../styles/variables.css'
 
 function Navbar() {
   return (
-    <nav>
-        <Link to="/">Home</Link>
-        <Link to="/sobre">Sobre nós</Link>
-        <Link to="/servicos">Serviços</Link>
-        <Link to="/contato">Contato</Link>
-    </nav>
+    <aside class="menu white-bg">
+        <div class="main-content menu-content">   
+                <img src={ Logo } alt="logo" className='logo' />
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre nós</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </aside>
   )
 }
 
-export default Navbar
+export default Navbar;

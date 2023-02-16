@@ -4,14 +4,14 @@ import App from './App';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom';
 
-import Home from './components/routes/Home';
-import Contact from './components/routes/Contact';
-import AboutUs from './components/routes/AboutUs';
-import Services from './components/routes/Services';
+import Home from './components/pages/Home';
+import Contact from './components/pages/Contact';
+import AboutUs from './components/pages/AboutUs';
+import Services from './components/pages/Services';
 import ErrorPage from './components/pages/ErrorPage';
-import ContactDetails from './components/routes/ContactDetails';
+import ContactDetails from './components/pages/ContactDetails';
 
 const router = createBrowserRouter([
   {
@@ -35,11 +35,16 @@ const router = createBrowserRouter([
         path: "/contato",
         element: <Contact />
       },
-      // nested routes - identificador único
+      // dynamic routes
       {
         path: "/contato/:id",
         element: <ContactDetails />,
-      }
+      },
+      // navigate para páginas não existentes
+      {
+        path: "oldcontact",
+        element: <Navigate to="/contato" />
+      },
     ]
   },
 ])
