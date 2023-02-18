@@ -1,12 +1,11 @@
-import React from "react";
-
-import Navbar from "./components/pages/Navbar";
+import Navbar from "./components/Navbar";
 
 function App() {
+
   return (
-    <div>
+      <div>
       <Navbar />
-    </div>
+      </div>
   );
 }
 
