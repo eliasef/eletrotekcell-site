@@ -1,11 +1,12 @@
 import React from 'react'
+import Logo from '../img/logo_preta.png'
 import '../styles/navbar.css'
 
 function Navbar() {
   return (
     <header className='Nav'>
       <nav className='nav-list'>
-        <a className='logo' href='#logo'>Eletrotekcell</a>
+        <img src={Logo} width={180} alt='logo'></img>
         <ul className='nav-list'>
             <li><a href='#home'>Home</a></li>
             <li><a href='#sobre'>Sobre nós</a></li>
