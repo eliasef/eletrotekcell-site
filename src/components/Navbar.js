@@ -4,7 +4,7 @@ import '../styles/navbar.css'
 function Navbar() {
   return (
     <header className='Nav'>
-      <nav>
+      <nav className='nav-list'>
         <a className='logo' href='#logo'>Eletrotekcell</a>
         <ul className='nav-list'>
             <li><a href='#home'>Home</a></li>
@@ -17,4 +17,4 @@ function Navbar() {
   )
 }
 
-export default Navbar
+export default Navbar;

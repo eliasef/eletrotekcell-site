@@ -24,7 +24,7 @@ html, body, #root, .Navbar {
     a {
         text-decoration: none;
         color: #fff;
-        transition: 0.3s;
+        transition: 0.1s;
         font-size: 1.4rem;
         text-transform: uppercase;
     }
