@@ -9,7 +9,7 @@ const [classOn, setClassOn] = useState(false);
   return (
     <header>
     <div className="container">
-    <img src={Logo} width={180} alt='logo' />
+    <img src={Logo} className="logo" width={180} alt='logo' />
 
       <div className = { classOn ? 'menu-section on' : 'menu-section'} onClick={() => setClassOn(!classOn)}>
            <div className="menu-toggle">
