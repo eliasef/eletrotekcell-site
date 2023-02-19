@@ -86,7 +86,7 @@ header nav ul li a .FiLogOut{
     height: 5px;
     width: 100%;
     margin: 6px auto;
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
   }
   .menu-toggle{
     width: 40px;
