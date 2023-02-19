@@ -36,7 +36,7 @@ header .container {
   display: flex; 
   align-items: center;
   justify-content: space-around;
-  height: 10vh;
+  height: 12vh;
   margin: auto;
 }
 
