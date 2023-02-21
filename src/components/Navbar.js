@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import Logo from '../img/logo_branca.png'
 import '../styles/navbar.css';
 
+
 const Header = () => {
 
 const [classOn, setClassOn] = useState(false);
@@ -37,9 +38,7 @@ const [classOn, setClassOn] = useState(false);
 
           </div>
         </div>
-
       </header>
-
       )
     }
     
