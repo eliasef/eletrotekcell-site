@@ -132,6 +132,7 @@ header nav ul li a .FiLogOut{
 
   .menu-section.on nav{
     display: block;
+    margin-right: 40px;
   }
 
   

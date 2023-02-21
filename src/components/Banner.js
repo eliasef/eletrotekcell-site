@@ -15,8 +15,7 @@ function Banner() {
             <a href='https://wa.me/85986026767' className='botao'>Solicite orçamento</a>
           </div>
           <img className='phone' src={Phone} alt="Phone"></img>
-          <div className='text'>
-          </div>
+
         </div>
       </section>
     </div>
