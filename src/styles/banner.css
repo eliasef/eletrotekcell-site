@@ -51,7 +51,7 @@
     transform: scaleX(-1);
 }
 
-h1 {
+/* h1 {
     animation-duration: 3s;
     animation-name: slidein;
   }
@@ -66,7 +66,7 @@ h1 {
       margin-left: 0%;
       width: 100%;
     }
-  }
+  } */
 
 .banner h1 {
     font-size: 48px;
