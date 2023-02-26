@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'React';
 
 function Sobre() {
   return (
     <div>
-      
+      <div>
+        
+      </div>
     </div>
   )
 }

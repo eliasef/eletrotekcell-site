@@ -1,0 +1,74 @@
+.s-container {
+    height: 900px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -140px;
+}
+
+.text-servicos {
+    margin-bottom: 0;
+}
+
+.text-servicos h3 {
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 3px;
+    color: #252A37;
+}
+
+.text-servicos span {
+    opacity: 0.1;
+    font-weight: 600;
+    font-size: 100px;
+    color: #022f74
+}
+
+.text-servicos p {
+    text-align: center;
+    margin-top: 56px;
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.info-servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.circulo {
+    width: 140px;
+    height: 140px;
+    background-color: #D3DDE7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circulo svg {
+    width: 80px;
+    height: 80px;
+    color: white;
+}
+
+.circulo:hover {
+    transition: 0.5s;
+    background-color: #001A41;
+}
+
+.title-servicos {
+    text-align: center;
+    margin-top: 16px;
+}
+
+.title-servicos h3 {
+    margin-top: 13px;
+    font-size: 20px;
+    color: #252a37;
+    font-weight: 400;
+}
