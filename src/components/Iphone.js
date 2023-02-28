@@ -2,7 +2,7 @@ import React from 'react'
 
 function Iphone() {
   return (
-    <div>Iphone</div>
+    <div>NOVA PÁGINA</div>
   )
 }
 

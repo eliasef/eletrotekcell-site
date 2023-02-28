@@ -1,10 +1,15 @@
 import '../styles/servicos.css'
 import React from 'react';
-import { Link } from 'react-router-dom'
 import { AiFillApple } from 'react-icons/ai';
+import { useHistory } from 'react-router-dom';
 
 function Servicos() {
-  
+  const history = useHistory();
+
+  const handleAppleClick = () => {
+    history.push('/iphone');
+  };
+
   return (
     <div className='s-container'>
       <div className='text-servicos'>
@@ -21,14 +26,12 @@ function Servicos() {
           <AiFillApple />
         </div>
         <div className='title-servicos'>
-          <Link to="/iphone">
-          <h3>Iphone</h3>
-          </Link>
-          
+          <button onClick={handleAppleClick}>Botão</button>
+            <h3>Iphone</h3>
         </div>
       </div>
     </div>
-  )
+  );
 }
 
 export default Servicos;
