@@ -18,6 +18,13 @@ header{
   
 }
 
+
+.logo:hover {
+  opacity: 1;
+}
+
+
+
 a:hover {
   opacity: 0.7;
 }

@@ -1,0 +1,97 @@
+.container-apple {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+.img-phone {
+  max-width: 100%;
+}
+
+.btn-apple {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+  border-radius: 2em;
+  padding: 20px 20px;
+  overflow: hidden;
+  background-color: #00ad08;
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 40px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.text-iphone h2 {
+  margin-top: 80px;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  line-height: 3px;
+  color: #252A37;
+}
+
+.text-iphone span {
+  opacity: 0.1;
+  font-weight: 600;
+  font-size: 100px;
+  color: #022f74;
+  margin-bottom: 200px;
+}
+
+.btn-apple svg {
+  width: 20px;
+  height: 20px;
+  width: 40px;
+}
+
+.text-iphone p {
+  text-align: center;
+  margin-top: 46px;
+}
+
+.iphone-models {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 60px;
+  margin-left: 12%;
+}
+
+.iphone-models li {
+  width: 30%;
+}
+
+.manutencoes h2 {
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  color: #252A37;
+}
+
+.manutencoes p {
+  margin-top: 26px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.manutencoes h1 {
+  font-size: 35px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.manutencoes .btn-apple {
+  margin-bottom: 60px;
+}

@@ -3,19 +3,20 @@ import React from 'react';
 import { AiFillApple } from 'react-icons/ai';
 import { useHistory } from 'react-router-dom';
 
+
 function Servicos() {
   const history = useHistory();
 
   const handleAppleClick = () => {
-    history.push('/iphone');
+    window.open('/iphone', '_blank')
   };
 
   return (
     <div className='s-container'>
       <div className='text-servicos'>
-        <h3><span>Serviços</span> <br></br>
+        <h2><span>Serviços</span> <br></br>
           Serviços
-        </h3>
+        </h2>
         <p>Fornecemos assistência técnica especializada, utilizando <br></br>
           os melhores componentes disponíveis no mercado para <br>
           </br> seu smartphone.
@@ -26,8 +27,8 @@ function Servicos() {
           <AiFillApple />
         </div>
         <div className='title-servicos'>
-          <button onClick={handleAppleClick}>Botão</button>
-            <h3>Iphone</h3>
+          <h3>Iphone</h3>
+            <span onClick={handleAppleClick}>Saiba mais <span>&gt;</span></span>
         </div>
       </div>
     </div>

@@ -1,28 +1,30 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import Logo from '../img/logo_azulered.png'
 import '../styles/navbar.css';
-
+import { Link } from 'react-router-dom';
 
 const Header = () => {
 
-const [classOn, setClassOn] = useState(false);
-      
+  const [classOn, setClassOn] = useState(false);
+
   return (
     <header>
-    <div className="container">
-    <img src={Logo} className="logo" width={180} alt='logo' />
+      <div className="container">
+        <Link to="/">
+          <img src={Logo} className="logo" width={180} alt='logo' style={{ opacity: 1 }} />
+        </Link>
 
-      <div className = { classOn ? 'menu-section on' : 'menu-section'} onClick={() => setClassOn(!classOn)}>
-           <div className="menu-toggle">
-              <div className="one"></div>
-              <div className="two"></div>
-              <div className="three"></div>
-           </div>
+        <div className={classOn ? 'menu-section on' : 'menu-section'} onClick={() => setClassOn(!classOn)}>
+          <div className="menu-toggle">
+            <div className="one"></div>
+            <div className="two"></div>
+            <div className="three"></div>
+          </div>
 
-           <nav>
+          <nav>
             <ul>
               <li>
-                <a href="#home">Home</a>
+                <Link to="/">Home</Link>
               </li>
               <li>
                 <a href="#sobre">Sobre nós</a>
@@ -32,14 +34,14 @@ const [classOn, setClassOn] = useState(false);
               </li>
               <li>
                 <a className={classOn ? 'show' : 'hide'} href="#contato">Contato</a>
-              </li>        
+              </li>
             </ul>
           </nav>
 
-          </div>
         </div>
-      </header>
-      )
-    }
-    
+      </div>
+    </header>
+  )
+}
+
 export default Header;
