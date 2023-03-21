@@ -1,12 +1,10 @@
-import React, { useState } from 'react';
+import React from 'react';
 import Navbar from './Navbar';
 import IphonePhoto from '../img/iphone.png'
 import '../styles/iphone.css'
 import { BsWhatsapp } from 'react-icons/bs';
 
 function Iphone() {
-
-  const [classOn, setClassOn] = useState(false);
 
   return (
     <div>
@@ -24,7 +22,7 @@ function Iphone() {
       <button className='btn-apple'><a href="https://wa.me/85986026767" target="noreffer">Conserto de Iphone</a> <BsWhatsapp /> </button>
       <div className='text-iphone'>
         <h2><span>Modelos</span> <br></br>
-          Modelo do Iphone
+          Modelos de Iphone
         </h2>
         <p>Veja abaixo qual <strong>iPhone</strong> é o seu e entre em contato conosco. <br></br>
           Temos uma <strong>Assistência Técnica Apple</strong> preparada para ajudar você!</p>
@@ -68,25 +66,25 @@ function Iphone() {
         <h2>
           Manutenção Iphone
         </h2>
-        <p>Com o uso contínuo do aparelho, naturalmente é maior a probabilidade de <strong>manutenção iPhone</strong>, seja por tempo de uso ou imprevistos. Eles <br></br> podem ser de duas natureza: Hardware (Componentes físicos do aparelho) ou Software (Sistema).</p>
+        <p>Com o uso contínuo do aparelho, naturalmente é maior a probabilidade de uma<br></br><strong>manutenção no iPhone</strong>, seja por tempo de uso ou imprevistos. Eles podem ser <br></br>de duas natureza: Hardware (Componentes físicos do aparelho) ou Software (Sistema).</p>
 
         <h2>
           Troca de Bateria iPhone
         </h2>
-        <p>Entre os problemas de hardware mais comuns apontamos a <strong>bateria viciada do Iphone</strong>. A própria Apple fornece aos seus usuários o <br></br> percentual de vida útil da bateria, para que a manutenção iphone seja feita no tempo adequado. Caso o smartphone não tenha uma boa <br></br> durabilidade de carga ou desligue sem motivo, é necessário levar a uma <strong>assistência técnica Apple</strong>.</p>
+        <p>Entre os problemas de hardware mais comuns apontamos a <strong>bateria viciada do Iphone</strong>.<br></br> A própria Apple fornece aos seus usuários o  percentual de vida útil da bateria, para que a <br></br>manutenção iphone seja feita no tempo adequado. Caso o smartphone não tenha uma boa <br></br> durabilidade de carga ou desligue sem motivo, é necessário levar a uma <strong>assistência técnica Apple</strong>.</p>
 
         <h2>
           Troca de tela Iphone
         </h2>
         <p>
-          A <strong>troca de tela Iphone</strong> é outro problema comum, seja por tempo de uso ou outros fatores externos . Não importando o motivo, é um problema <br></br> de fácil resolução, ao <strong>trocar a tela iphone</strong> o seu aparelho estará pronto para uso. Defeitos de placa, sistema de carga, nfc ou flex, também <br></br> são problemas físicos de rápida solução.
+          A <strong>troca de tela Iphone</strong> é outro problema comum, seja por tempo de uso ou outros fatores externos.<br></br> Não importando  o motivo, é um problema de fácil resolução, ao <strong>trocar a tela iphone</strong> o seu <br></br>aparelho estará pronto para uso. Defeitos de placa, sistema de carga, nfc ou flex, também <br></br> são problemas físicos de rápida solução.
           <br></br><br></br>
-          Quanto aos problemas de software é perfeitamente possível reparar erros no sistema, é necessário apenas verificar qual é a origem do erro. <br></br> Defeitos físicos ou de sistema necessitam de uma <strong>assistência técnica Apple</strong> de confiança, que atenda e solucione da melhor forma os <br></br>possíveis problemas com o <strong>conserto de iPhone</strong>.
+          Quanto aos problemas de software é perfeitamente possível reparar erros no sistema,<br></br> é necessário apenas verificar qual é a origem do erro.  Defeitos físicos ou de sistema<br></br> necessitam de uma <strong>assistência técnica Apple</strong> de confiança, que atenda e solucione da <br></br>melhor forma os possíveis problemas com o <strong>conserto de iPhone</strong>.
         </p>
 
         <h1>Entre agora em contato que iremos te ajudar!</h1>
         <p>
-        A <strong>Eletrotekcell Fortaleza</strong> está qualificada para oferecer o <strong>conserto de Iphone</strong>, realizando tanto reparos básicos como de alta complexidade, oferecendo as <br></br> melhores peças disponíveis, bem como profissionais competentes e qualificados.
+        A <strong>Eletrotekcell Fortaleza</strong> está qualificada para oferecer o <strong>conserto de Iphone</strong>, realizando tanto <br></br>reparos básicos como de alta complexidade, oferecendo as  melhores peças disponíveis, <br></br>bem como profissionais competentes e qualificados.
         </p>
 
         <button className='btn-apple'><a href="https://wa.me/85986026767" target="noreffer">Conserto de Iphone</a> <BsWhatsapp /> </button>
