@@ -4,11 +4,9 @@
     justify-content: center;
     flex-direction: column;
     margin-top: -130px;
+    margin-bottom: -150px;
 }
 
-.text-servicos {
-    margin-bottom: 0;
-}
 
 .text-servicos h2 {
     font-size: 32px;

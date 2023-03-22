@@ -1,0 +1,27 @@
+.sobre-container {
+    display: flex;
+    justify-content: center;
+    height: 520px;
+    background: #fcfbfb;
+}
+
+.title-sobrenos span {
+    opacity: 0.1;
+    font-weight: 600;
+    font-size: 100px;
+    color: #022f74
+}
+
+.title-sobrenos h2 {
+    margin-top: 80px;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 3px;
+    color: #252A37;
+}
+
+.title-sobrenos p {
+    margin-top: 55px;
+    text-align: center;
+}
