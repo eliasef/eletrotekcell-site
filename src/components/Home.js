@@ -5,6 +5,7 @@ import Cards from './Cards';
 import Servicos from './Servicos';
 import SobreNos from './SobreNos';
 import Footer from './Footer';
+import Copy from './Copy';
 
 function Home() {
   return (
@@ -15,6 +16,7 @@ function Home() {
         <Servicos />
         <SobreNos />
         <Footer />
+        <Copy />
     </div>
   )
 }

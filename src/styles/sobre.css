@@ -25,3 +25,30 @@
     margin-top: 55px;
     text-align: center;
 }
+
+@media screen and (max-width: 630px) {
+
+    .sobre-container {
+        height: 815px;
+    }
+
+    .title-sobrenos {
+      padding: 0 15px;
+      margin-top: 25px;
+    }
+  
+    .title-sobrenos span {
+      font-size: 60px;
+    }
+  
+    .title-sobrenos h2 {
+      margin-top: 40px;
+      font-size: 26px;
+    }
+  
+    .title-sobrenos p {
+      margin-top: 35px;
+      font-size: 15px;
+    }
+  }
+  

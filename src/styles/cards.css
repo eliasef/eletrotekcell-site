@@ -71,7 +71,8 @@ main.cards section.card:first-child {
 
 main.cards section.card:nth-child(2) {
     color: white;
-    background: black;  /* fallback for old browsers */
+    background: black;
+    /* fallback for old browsers */
 }
 
 main.cards section.card:nth-child(3) {
@@ -94,18 +95,33 @@ main.cards section.card svg {
     height: 60px;
 }
 
-@media screen and (max-width: 720px) {
-    main.cards {
+@media screen and (max-width: 630px) {
+    .cards {
         flex-direction: column;
+        height: auto;
     }
 
-    main.cards section.card {
-        margin-left: 0;
-        margin-bottom: 32px;
+    .card {
+        font-size: 15px;
+        width: 100%;
     }
 
-    main.cards section.card:last-child {
-        margin-bottom: 0px;
+    .card:last-child {
+        margin-bottom: 0;
     }
 
+    .card h3 {
+        font-size: 18px;
+    }
+
+    .card span {
+        max-width: 100%;
+        margin-top: 3px;
+    }
+
+    .card svg {
+        margin-top: 30px;
+        width: 40px;
+        height: 40px;
+    }
 }

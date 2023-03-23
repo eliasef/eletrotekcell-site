@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import IphonePhoto from '../img/iphone.png'
 import '../styles/iphone.css'
 import { BsWhatsapp } from 'react-icons/bs';
+import Footer from './Footer';
 
 function Iphone() {
 
@@ -90,6 +91,7 @@ function Iphone() {
         <button className='btn-apple'><a href="https://wa.me/85986026767" target="noreffer">Conserto de Iphone</a> <BsWhatsapp /> </button>
 
       </div>
+      <Footer />
     </div>
   )
 }

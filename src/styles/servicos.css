@@ -85,3 +85,44 @@
     font-weight: 400;
     margin-bottom: 13px;
 }
+
+@media screen and (max-width: 630px) {
+    .s-container {
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .text-servicos h2 {
+        margin-bottom: 50px;
+        font-size: 24px;
+        line-height: 1px;
+    }
+
+    .text-servicos span {
+        font-size: 60px;
+    }
+
+    .text-servicos p {
+        
+        font-size: 16px;
+        margin-top: 24px;
+    }
+
+    .servicos-wrapper {
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .info-servicos {
+        margin-right: 0;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    .title-servicos {
+        margin-top: 10px;
+    }
+}

@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import XiaomiPhoto from '../img/xiaomi.jpg'
 import '../styles/iphone.css'
 import { BsWhatsapp } from 'react-icons/bs';
+import Footer from './Footer';
 
 function Xiaomi() {
 
@@ -135,6 +136,7 @@ function Xiaomi() {
         <button className='btn-apple'><a href="https://wa.me/85986026767" target="noreffer">Conserto de Celular Xiaomi</a> <BsWhatsapp /> </button>
 
       </div>
+      <Footer />
     </div>
   )
 }

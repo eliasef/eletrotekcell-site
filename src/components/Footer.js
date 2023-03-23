@@ -9,6 +9,7 @@ import { MdPix } from 'react-icons/md';
 import { FaCcDinersClub } from 'react-icons/fa';
 import { BsInstagram } from 'react-icons/bs';
 import { BsWhatsapp } from 'react-icons/bs';
+import { AiTwotoneMail } from 'react-icons/ai'
 
 function Footer() {
   return (
@@ -26,13 +27,13 @@ function Footer() {
         <div className='contacts'>
           <p><BsFillTelephoneFill />(85) 9 8602-6767</p>
 
-          <p>contato@eletrotekcell.com.br</p>
+          <p><AiTwotoneMail />eletrotekcellfortaleza@gmail.com</p>
 
           <p><a href='https://www.instagram.com/eletrotekcellfortaleza1899/' target="noreffer">
             <BsInstagram />
           </a> <a href='https://wa.me/85986026767' target="noreffer">
-            <BsWhatsapp />
-          </a></p>
+              <BsWhatsapp />
+            </a></p>
         </div>
       </div>
       <div className="footer-payment">
@@ -45,7 +46,6 @@ function Footer() {
 
       </div>
       <div className="footer-copy">
-        <p>&copy; 2022 - Eletrotekcell Fortaleza</p>
       </div>
     </footer>
   );

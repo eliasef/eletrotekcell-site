@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import SamsungPhoto from '../img/samsung.png'
 import '../styles/iphone.css'
 import { BsWhatsapp } from 'react-icons/bs';
+import Footer from './Footer';
 
 function Samsung() {
 
@@ -128,6 +129,7 @@ function Samsung() {
                 <button className='btn-apple'><a href="https://wa.me/85986026767" target="noreffer">Conserto de Samsung</a> <BsWhatsapp /> </button>
 
             </div>
+            <Footer />
         </div>
     )
 }

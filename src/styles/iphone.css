@@ -7,7 +7,7 @@
 }
 
 .img-phone {
-  max-width: 100%;
+  margin-left: 10px;
 }
 
 .btn-apple {
@@ -94,4 +94,30 @@ a {
 
 .manutencoes .btn-apple {
   margin-bottom: 60px;
+}
+
+@media screen and (max-width: 630px) {
+  .container-apple {
+    flex-direction: column;
+  }
+  .img-phone {
+    margin: 0 auto;
+  }
+  .sobre {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .btn-apple {
+    margin: 20px auto;
+  }
+  .text-iphone {
+    text-align: center;
+  }
+  .iphone-models {
+    padding: 0;
+    text-align: center;
+  }
+  .manutencoes {
+    text-align: center;
+  }
 }

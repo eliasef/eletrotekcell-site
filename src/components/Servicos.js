@@ -4,6 +4,7 @@ import { AiFillApple } from 'react-icons/ai';
 import { SiSamsung } from 'react-icons/si';
 import { SiMotorola } from 'react-icons/si';
 import { SiXiaomi } from 'react-icons/si';
+import { RiComputerFill } from 'react-icons/ri'
 
 function Servicos() {
 
@@ -23,6 +24,10 @@ function Servicos() {
     window.open('/xiaomi', '_blank')
   };
 
+  const handlePcClick = () => {
+    window.open('/computador', '_blank')
+  };
+
   return (
     <div className='s-container'>
       <div className='text-servicos'>
@@ -31,7 +36,7 @@ function Servicos() {
         </h2>
         <p>Fornecemos assistência técnica especializada, utilizando <br></br>
           os melhores componentes disponíveis no mercado para <br>
-          </br> seu smartphone.
+          </br> seu smartphone e computador.
         </p>
       </div>
       <div className='servicos-wrapper'>
@@ -69,6 +74,15 @@ function Servicos() {
           <div className='title-servicos'>
             <h3>Xiaomi</h3>
             <span onClick={handleXiaomiClick}>Saiba mais <span>&gt;</span></span>
+          </div>
+        </div>
+        <div className='info-servicos'>
+          <div className='circulo'>
+            <RiComputerFill />
+          </div>
+          <div className='title-servicos'>
+            <h3>Computador</h3>
+            <span onClick={handlePcClick}>Saiba mais <span>&gt;</span></span>
           </div>
         </div>
       </div>

@@ -5,6 +5,7 @@ import Iphone from "./components/Iphone";
 import Samsung from './components/Samsung';
 import Motorola from './components/Motorola';
 import Xiaomi from './components/Xiaomi';
+import Computador from './components/Computador';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/samsung" component={Samsung} />
         <Route path="/motorola" component={Motorola} />
         <Route path="/xiaomi" component={Xiaomi} />
+        <Route path="/computador" component={Computador} />
       </Switch>
     </BrowserRouter>
   );

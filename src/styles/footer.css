@@ -81,3 +81,50 @@
   font-size: 14px;
   margin-bottom: 15px;
 }
+
+@media screen and (max-width: 630px) {
+  .footer {
+    flex-direction: column;
+    height: auto;
+    padding: 20px;
+  }
+
+  .footer-address {
+    margin-left: 0;
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .footer-address p {
+    margin-bottom: 10px;
+  }
+
+  .footer-contact {
+    font-size: 15px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .contacts {
+    margin-top: 10px;
+    line-height: 50px;
+  }
+
+  .footer-payment {
+    margin-bottom: 20px;
+  }
+
+  .footer-payment svg {
+    width: 50px;
+    height: 50px;
+  }
+
+  .footer-payment svg:not(:last-child) {
+    margin-right: 10px;
+  }
+
+  .footer-copy {
+    margin-bottom: 0;
+  }
+}
