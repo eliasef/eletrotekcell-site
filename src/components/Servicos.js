@@ -49,10 +49,12 @@ function Servicos() {
             <span onClick={handleAppleClick}>Saiba mais <span>&gt;</span></span>
           </div>
         </div>
+
         <div className='info-servicos'>
           <div className='circulo'>
             <SiSamsung />
           </div>
+
           <div className='title-servicos'>
             <h3>Samsung</h3>
             <span onClick={handleSamsungClick}>Saiba mais <span>&gt;</span></span>

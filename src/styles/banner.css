@@ -1,16 +1,29 @@
 .banner {
-    background: #F7F7F7;
+    /* background: #000046;
+  
+    background: -webkit-linear-gradient(to right, #1CB5E0, #000046);
+
+    background: linear-gradient(to right, #1CB5E0, #000046); */
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
     width: 100%;
     min-height: 578px;
     background-size: contain;
     font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .b-container {
     display: flex;
     justify-content: center;
     color: #001a41;
-}
+    position: relative;
+  }
 
 .info-banner {
     gap: 40px;
@@ -25,19 +38,20 @@
 }
 
 .break {
-    color: #8E0E00;
+    color: #ffffff;
 }
 
 .button {
-    width: 40%;
+    width: 41%;
     font-size: 14px;
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    font-weight: bold;
     text-transform: uppercase;
     border-radius: 2em;
     padding: 14px 20px;
     overflow: hidden;
-    background-color: #0756F2;
+    background-color: #000000;
 }
 
 .button:hover {
@@ -48,13 +62,23 @@
     color: white;
     font-weight: 400;
 }
-
 .phone {
     margin-right: 18px;
+    margin-left: 30px;
     margin-top: 2.5%;
     width: 483px;
     transform: scaleX(-1);
-}
+  }
+  
+  .placa {
+    border: 3px solid black;
+    border-radius: 60%;
+    position: absolute;
+    bottom: -4%;
+    right: -4%;
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+  }
+  
 
 /* h1 {
     animation-duration: 3s;
@@ -76,15 +100,16 @@
 .banner h1 {
     font-size: 48px;
     line-height: 62px;
+    color: white;
 }
 
 .bio {
     font-weight: bold;
-    color: #333;
+    color: #ffffff;
 }
 
 .bio2 {
-    color: #333;
+    color: #ffffff;
 }
 
 

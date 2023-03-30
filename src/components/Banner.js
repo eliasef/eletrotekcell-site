@@ -1,5 +1,6 @@
 import React from 'react'
-import Phone from '../img/break.png'
+import Phone from '../img/celulares.png';
+import Placa from '../img/placa.png';
 import '../styles/banner.css'
 
 function Banner() {
@@ -15,6 +16,7 @@ function Banner() {
             <a href='https://wa.me/85986026767' target="noreffer" className='button'>Solicite orçamento <span>&gt;</span></a>
           </div>
           <img className='phone' src={Phone} alt="Phone"></img>
+          <img className='placa' src={Placa} alt="Placa"></img>
         </div>
       </section>
     </div>
