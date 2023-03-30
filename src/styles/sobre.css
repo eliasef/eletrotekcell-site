@@ -2,14 +2,18 @@
     display: flex;
     justify-content: center;
     height: 520px;
-    background: #fcfbfb;
+    /* background: #fcfbfb; */
+    background: #0575E6;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
 }
 
 .title-sobrenos span {
     opacity: 0.1;
     font-weight: 600;
     font-size: 100px;
-    color: #022f74
+    color: #ffffff
 }
 
 .title-sobrenos h2 {
@@ -18,7 +22,7 @@
     font-weight: 400;
     text-align: center;
     line-height: 3px;
-    color: #252A37;
+    color: #ffffff;
 }
 
 .title-sobrenos p {

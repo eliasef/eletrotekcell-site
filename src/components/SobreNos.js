@@ -6,7 +6,7 @@ function SobreNos() {
     <div id='sobre' className='sobre-container'>
       <div className='title-sobrenos'>
         <h2><span>Sobre Nós</span> <br></br>
-          A Eletrotekcell
+          A Eletrotekcell Fortaleza
         </h2>
         <p>
           Lorem ipsum dolor sit amet. Et voluptas iure a magnam molestiae a quae officiaeos expedita ipsa<br></br> et labore nostrum est delectus facere? Est ullam sint est veritatis libero At dolor fugit. Ea adipisci nulla <br></br>qui quia enim et numquam molestiae. Et quasi dignissimos non nisi molestiae aut recusandae <br></br>quia qui doloribus voluptates.
