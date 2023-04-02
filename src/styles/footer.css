@@ -5,7 +5,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   padding: 50px;
-  height: 300px;
+  height: 300px; 
 }
 
 .footer-address {
@@ -126,5 +126,17 @@
 
   .footer-copy {
     margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .footer-payment svg {
+    width: 50px;
+    height: 50px;
+    margin-left: 3px;
+  }
+
+  .footer-address {
+    margin-left: 60px;
   }
 }

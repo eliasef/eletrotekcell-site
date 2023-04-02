@@ -5,6 +5,11 @@ import { SiSamsung } from 'react-icons/si';
 import { SiMotorola } from 'react-icons/si';
 import { SiXiaomi } from 'react-icons/si';
 import { RiComputerFill } from 'react-icons/ri'
+import IphoneLogo from '../img/iphonelogo.png'
+import SamsungLogo from '../img/samsunglogo.png'
+import MotorolaLogo from '../img/motorolalogo.png'
+import XiaomiLogo from '../img/xiaomilogo.png'
+import PcLogo from '../img/pclogo.png'
 
 function Servicos() {
 
@@ -42,7 +47,7 @@ function Servicos() {
       <div className='servicos-wrapper'>
         <div className='info-servicos'>
           <div className='circulo'>
-            <AiFillApple />
+            <img src={IphoneLogo} alt="iphone"/>
           </div>
           <div className='title-servicos'>
             <h3>Iphone</h3>
@@ -52,7 +57,7 @@ function Servicos() {
 
         <div className='info-servicos'>
           <div className='circulo'>
-            <SiSamsung />
+            <img src={SamsungLogo} alt="samsung" />
           </div>
 
           <div className='title-servicos'>
@@ -62,7 +67,7 @@ function Servicos() {
         </div>
         <div className='info-servicos'>
           <div className='circulo'>
-            <SiMotorola />
+            <img src={MotorolaLogo} alt="motorola" />
           </div>
           <div className='title-servicos'>
             <h3>Motorola</h3>
@@ -71,7 +76,7 @@ function Servicos() {
         </div>
         <div className='info-servicos'>
           <div className='circulo'>
-            <SiXiaomi />
+            <img src={XiaomiLogo} alt="xiaomi" />
           </div>
           <div className='title-servicos'>
             <h3>Xiaomi</h3>
@@ -80,7 +85,7 @@ function Servicos() {
         </div>
         <div className='info-servicos'>
           <div className='circulo'>
-            <RiComputerFill />
+            <img src={PcLogo} alt="pc" />
           </div>
           <div className='title-servicos'>
             <h3>Computador</h3>

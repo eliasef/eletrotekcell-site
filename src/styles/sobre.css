@@ -1,7 +1,7 @@
 .sobre-container {
     display: flex;
     justify-content: center;
-    height: 520px;
+    height: 1470px;
     /* background: #fcfbfb; */
     background: #0575E6;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
@@ -33,7 +33,7 @@
 @media screen and (max-width: 630px) {
 
     .sobre-container {
-        height: 815px;
+        height: 2835px;
     }
 
     .title-sobrenos {

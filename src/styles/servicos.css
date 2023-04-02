@@ -54,10 +54,6 @@
     margin-right: 20px;
 }
 
-.circulo svg {
-    color: black;
-} 
-
 .circulo {
     width: 140px;
     height: 140px;
@@ -72,6 +68,10 @@
     width: 80px;
     height: 80px;
     color: white;
+}
+
+.circulo img {
+    width: 80px;
 }
 
 .circulo:hover {
