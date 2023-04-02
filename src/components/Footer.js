@@ -16,10 +16,10 @@ function Footer() {
     <footer id='contato' className="footer">
       <div className="footer-address">
         <div className='title-adress'>endereço</div>
-        <p><AiFillHome />Rua Henrique Jorge, 1058 - Joaquim Távora</p>
+        <p><AiFillHome />R. Alberto Magno, 625 - Montese | Fortaleza - CE</p>
         <div className="footer-hours">
           <p>Segunda a sexta - 08:00 às 17:00</p>
-          <p>Sábado - 08:00 às 12:00</p>
+          <p className='second-hours'>Sábado - 08:00 às 12:00</p>
         </div>
       </div>
       <div className="footer-contact">

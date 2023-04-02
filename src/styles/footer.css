@@ -82,6 +82,10 @@
   margin-bottom: 15px;
 }
 
+.second-hours {
+  margin-left: 30px;
+}
+
 @media screen and (max-width: 630px) {
   .footer {
     flex-direction: column;
@@ -90,13 +94,17 @@
   }
 
   .footer-address {
-    margin-left: 0;
+    margin-right: 40px;
     text-align: center;
     font-size: 15px;
   }
 
   .footer-address p {
     margin-bottom: 10px;
+  }
+
+  .second-hours {
+    margin-right: 35px;
   }
 
   .footer-contact {
