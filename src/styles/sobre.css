@@ -56,3 +56,14 @@
     }
   }
   
+  @media screen and (max-width: 400px) {
+    .sobre-container {
+      height: 2935px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .sobre-container {
+    height: 3835px;
+}
+}

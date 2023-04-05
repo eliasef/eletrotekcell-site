@@ -148,3 +148,15 @@
     margin-left: 60px;
   }
 }
+
+@media screen and (max-width: 1366px) {
+  .footer-payment svg {
+    width: 50px;
+    height: 50px;
+    margin-left: 3px;
+  }
+
+  .footer-address {
+    margin-left: 60px;
+  }
+}
