@@ -10,7 +10,7 @@ function SobreNos() {
         </h2>
         <p>
           A Eletrotekcell Fortaleza começou através de uma iniciativa muito ousada. Eu
-          era sócio proprietário de umrestaurante em Fortaleza, <br></br> mais precisamente no
+          era sócio proprietário de um restaurante em Fortaleza, <br></br> mais precisamente no
           bairro Maraponga. Como sempre gostei de desafios, decidi abrir uma loja de
           venda de acessórios para celular, <br></br>pois naquele momento era o ápice do negócio
           no segmento. 
