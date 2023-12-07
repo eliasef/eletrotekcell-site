@@ -20,7 +20,7 @@ function Iphone() {
           Uma parcela alta dos usuários <strong>Apple</strong> utilizam seus <strong>iPhones</strong> como ferramenta de trabalho <br></br> pela comodidade que esses smartphones oferecem. Outros utilizam sem fins profissionais, <br></br> no entanto, isso não os tornam menos exigentes.
         </div>
       </div>
-      <button className='btn-apple'><a href="https://wa.me/85986026767" target="noreffer">Conserto de Iphone</a> <BsWhatsapp /> </button>
+      <button className='btn-apple'><a href="https://wa.me/5585988113939" target="noreffer">Conserto de Iphone</a> <BsWhatsapp /> </button>
       <div className='text-iphone'>
         <h2><span>Modelos</span> <br></br>
           Modelos de Iphone
