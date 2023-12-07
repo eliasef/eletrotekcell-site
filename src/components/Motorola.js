@@ -20,7 +20,7 @@ function Motorola() {
                     A <strong>Motorola</strong> tem em sua trajetória a marca do pioneirismo. Ela foi a primeira empresa a <br></br>lançar o celular no mercado em 1983. O Motorola DynaTac levou cerca de 10 anos entre os <br></br>primeiros testes até estar disponível para a venda. Ele tinha como principais características<br></br> além do grande tamanho físico, uma bateria que durava cerca de 1 hora em uso e 8 horas<br></br> em modo espera.
                 </div>
             </div>
-            <button className='btn-apple'><a href="https://wa.me/85986026767" target="noreffer">Conserto de Motorola</a> <BsWhatsapp /> </button>
+            <button className='btn-apple'><a href="https://wa.me/5585988113939" target="noreffer">Conserto de Motorola</a> <BsWhatsapp /> </button>
             <div className='text-iphone'>
                 <h2><span>Modelos</span> <br></br>
                     Celulares Motorola
