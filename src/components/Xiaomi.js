@@ -20,7 +20,7 @@ function Xiaomi() {
           O primeiro <strong>smartphone</strong> da marca foi o <strong>Xiaomi MI 1</strong>, lançado em 2011 tendo como inovação <br></br>uma bateria de 1930 mAh, que prometia até 2 dias de bateria com uma única carga. O <br></br>modelo teve um pedido de 300 mil unidades na pré-venda. Essa era uma demanda alta se <br></br>levar em consideração que a empresa tinha pouquíssimo tempo de mercado, o que atraia <br></br>os consumidores eram as boas especificações técnicas e o preço acessível.
         </div>
       </div>
-      <button className='btn-apple'><a href="https://wa.me/85986026767" target="noreffer">Conserto de Celular Xiaomi</a> <BsWhatsapp /> </button>
+      <button className='btn-apple'><a href="https://wa.me/5585988113939" target="noreffer">Conserto de Celular Xiaomi</a> <BsWhatsapp /> </button>
       <div className='text-iphone'>
         <h2><span>Modelos</span> <br></br>
           Modelos Xiaomi
