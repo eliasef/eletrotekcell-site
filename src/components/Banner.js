@@ -13,7 +13,7 @@ function Banner() {
             <h1>Meu celular <span className="break">quebrou</span>, <br></br> o que fazer ?</h1>
             <p className='bio2'>Não fique preocupado, o seu problema tem solução <br></br>
               e oferecemos ela como ninguém.</p>
-            <a href='https://wa.me/85986026767' target="noreffer" className='button'>Solicite orçamento <span>&gt;</span></a>
+            <a href='https://wa.me/5585988113939' target="noreffer" className='button'>Solicite orçamento <span>&gt;</span></a>
           </div>
           <img className='phone' src={Phone} alt="Phone"></img>
           <img className='placa' src={Placa} alt="Placa"></img>
