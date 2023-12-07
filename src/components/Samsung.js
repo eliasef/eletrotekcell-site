@@ -20,7 +20,7 @@ function Samsung() {
                     É impossível hoje falar da <strong>Samsung</strong> e não lembrar da linha <strong>Galaxy</strong>. Lançada em 2009, já <br></br>utilizando o sistema operacional Android, a linha Galaxy conta atualmente com cinco <br></br>vertentes amplamente reconhecidas: <strong>Galaxy A</strong>, <strong>Galaxy M</strong>, <strong>Galaxy S</strong>, <strong>Galaxy Note</strong> e <strong>Galaxy Z</strong>.<br></br> Desde o lançamento de cada uma, elas vêm ganhando espaço entre um público fiel e cada <br></br>vez mais exigente.
                 </div>
             </div>
-            <button className='btn-apple'><a href="https://wa.me/85986026767" target="noreffer">Conserto de Samsung</a> <BsWhatsapp /> </button>
+            <button className='btn-apple'><a href="https://wa.me/5585988113939" target="noreffer">Conserto de Samsung</a> <BsWhatsapp /> </button>
             <div className='text-iphone'>
                 <h2><span>Modelos</span> <br></br>
                     Modelos Samsung
