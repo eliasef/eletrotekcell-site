@@ -20,7 +20,7 @@ function Computador() {
                     Alguns dos modelos mais populares incluem o MacBook Air, MacBook Pro, HP Specter x360, Dell XPS 13, <br></br> Asus Zenbook, Lenovo ThinkPad X1, Surface Laptop, Chromebook e muito mais. A evolução dos <br></br> computadores foi surpreendente ao longo dos anos,  <br></br>e a tecnologia continua a crescer em ritmo acelerado.
                 </div>
             </div>
-            <button className='btn-apple'><a href="https://wa.me/85986026767" target="noreffer">Conserto de Computador</a> <BsWhatsapp /> </button>
+            <button className='btn-apple'><a href="https://wa.me/5585988113939" target="noreffer">Conserto de Computador</a> <BsWhatsapp /> </button>
             <div className='text-iphone'>
                 <h2><span>Modelos</span> <br></br>
                     Modelos de Computador
